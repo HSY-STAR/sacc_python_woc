@@ -1,4 +1,39 @@
+# 虚拟环境
 venv/
+env/
+ENV/
 .env
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Python缓存
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 项目特定
+430_system.db
+test_*.py
+*.log
+
+# 打包文件
+*.egg-info/
+dist/
+build/
